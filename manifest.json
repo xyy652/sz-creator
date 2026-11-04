@@ -1,0 +1,11 @@
+{
+  "display_name": "清音与清雪 · 创角器",
+  "loading_order": 200,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "local",
+  "version": "1.0.0",
+  "homePage": ""
+}

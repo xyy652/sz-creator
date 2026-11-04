@@ -1,0 +1,28 @@
+/* 清音与清雪 · 创角器 —— 补充样式（表单本身已内联，这里只补交互态） */
+
+#sz-form input:focus,
+#sz-form select:focus,
+#sz-form textarea:focus {
+    border-color: #e84393 !important;
+    box-shadow: 0 0 0 3px rgba(232, 67, 147, 0.16) !important;
+}
+
+#sz-form button:active {
+    transform: translateY(1px);
+}
+
+#sz-result textarea:focus {
+    border-color: rgba(72, 200, 140, 0.7) !important;
+    box-shadow: 0 0 0 3px rgba(72, 200, 140, 0.16) !important;
+}
+
+#sz-result button:active {
+    transform: translateY(1px);
+}
+
+/* 手机上让网格变单列 */
+@media (max-width: 560px) {
+    #sz-form > div[style*="grid-template-columns"] {
+        grid-template-columns: 1fr !important;
+    }
+}
